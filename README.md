@@ -21,3 +21,7 @@ Inspired by [dennybritz' repo](https://github.com/dennybritz/deeplearning-papern
 ### 2017 03
 
 - [A Structured Self-attentive Sentence Embedding](notes/self_attentive_sentence_embedding.md)
+
+### 2010
+
+- [A Literature Survey on Algorithms for Multi-label Learning](notes/legacy_survey_mlc.md)
