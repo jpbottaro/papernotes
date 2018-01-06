@@ -14,12 +14,10 @@ Inspired by [dennybritz' repo](https://github.com/dennybritz/deeplearning-papern
 
 ## Papers
 
-### 2017 09
+### 2017
 
+- [Dynamic Routing Between Capsules](notes/capsule_networks.md)
 - [Maximizing Subset Accuracy with Recurrent Neural Networks in Multi-label Classification](notes/maximizing_acc_rnn_mlc.md)
-
-### 2017 03
-
 - [A Structured Self-attentive Sentence Embedding](notes/self_attentive_sentence_embedding.md)
 
 ### 2010
