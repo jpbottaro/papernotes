@@ -44,7 +44,7 @@ one with the appropriate scale).
   with biology and other disciplines: the connection to how we do vision in
   humans, and how capsules can be viewed as 'inverting graphics rendering'.
 * MultiMNIST results look great, but the dataset has some extra information
-  that are tailored for their method, specifically the original overlapped
+  that is tailored for their method, specifically the original overlapped
   images allow them to reuse the recostruction regularization (since they had
   the original images).
 
