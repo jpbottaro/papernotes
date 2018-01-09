@@ -33,7 +33,7 @@ one with the appropriate scale).
 * Is able to decompose overlapping digits in their MultiMNIST model, better than
   previous approaches.
 * Drawback is that "\[...\] \[Capsules\] like to account for everything in the
-  image \[...\]", as seen in their CIFAR-10 tests, where they hypothesise that
+  image \[...\]", as seen in their CIFAR-10 tests, where they hypothesis that
   varied backgrounds trouble the model.
 
 
