@@ -27,7 +27,7 @@ one with the appropriate scale).
 * Extra regularizing loss to encourage the output digit layer to encode
   instantiation parameters, by asking it to reconstruct the original image (i.e.
   like an autoencoder).
-* Much better test error with a lot fewer paramenters, compared with CNNs with
+* Much better test error with a lot fewer parameters, compared with CNNs with
   similar computation cost. Generalizes better to unseen affine transformations
   of the test set (affNIST).
 * Is able to decompose overlapping digits in their MultiMNIST model, better than
@@ -45,7 +45,7 @@ one with the appropriate scale).
   humans, and how capsules can be viewed as 'inverting graphics rendering'.
 * MultiMNIST results look great, but the dataset has some extra information
   that is tailored for their method, specifically the original overlapped
-  images allow them to reuse the recostruction regularization (since they had
+  images allow them to reuse the reconstruction regularization (since they had
   the original images).
 
 #### Tags
