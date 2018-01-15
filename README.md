@@ -20,6 +20,10 @@ Inspired by [dennybritz' repo](https://github.com/dennybritz/deeplearning-papern
 - [Maximizing Subset Accuracy with Recurrent Neural Networks in Multi-label Classification](notes/maximizing_acc_rnn_mlc.md)
 - [A Structured Self-attentive Sentence Embedding](notes/self_attentive_sentence_embedding.md)
 
+### 2015
+
+- [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](notes/batch_normalization.md)
+
 ### 2010
 
 - [A Literature Survey on Algorithms for Multi-label Learning](notes/legacy_survey_mlc.md)
