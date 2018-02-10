@@ -3,7 +3,7 @@
 **Authors**: Sergey Ioffe, Christian Szegedy
 
 In NNs, the distribution of each internal layer's inputs changes during training, as
-changes in the model's parameters naturally affect previous layers' activations, and
+changes in the model parameters naturally affect previous layers' activations and
 their distribution. Authors call this phenomenon "Internal Covariate Shift", and
 propose normalizing said inputs at each layer as a solution. To achive this,
 they introduce a new differentiable transformation (i.e. layer) that centers its
@@ -11,8 +11,8 @@ inputs and fixes variance to the unit. They apply some simplifications, like
 normalizing activations independently and calculating mean/variance per mini-batch
 instead of the whole dataset.
 
-They adapt the layer to CNNs and ensure deterministic predictions inference time,
-achieving stat-of-the-art performance on ImageNet in an order of magnitude less
+The layer is adapted to CNNs and ensures deterministic predictions at inference time,
+achieving state-of-the-art performance on ImageNet in an order of magnitude less
 training steps than a non-BN model, and surpass it handily with an ensemble.
 
 #### Key Points
@@ -27,8 +27,7 @@ training steps than a non-BN model, and surpass it handily with an ensemble.
 * Add subsequent linear transformation to keep expressive power.
 * Apply before non-linearity. They conjecture that doing after the affine
   transformation `is more likely to have a symmetric, non-sparse distribution,
-  that is "more Gaussian"`y to have a symmetric, non-sparse distribution, that
-  is "more Gaussian"`.
+  that is "more Gaussian"`.
 * It enables much higher rates, due to avoiding amplification of inputs as they
   propagate, scaling of parameters, and (conjecture) making Jacobians have
   singular values close to 1.
@@ -43,6 +42,7 @@ training steps than a non-BN model, and surpass it handily with an ensemble.
   Capsules, etc.).
 * Strange to see that higher learning rates can result in _slower_ convergence,
   but higher final accuracy.
+* Why does this work? https://www.youtube.com/watch?v=Qi1Yry33TQE&feature=youtu.be&t=17m5s
 
 #### Tags
 
