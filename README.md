@@ -20,6 +20,7 @@ Inspired by [dennybritz' repo](https://github.com/dennybritz/deeplearning-papern
 - [Maximizing Subset Accuracy with Recurrent Neural Networks in Multi-label Classification](notes/maximizing_acc_rnn_mlc.md)
 - [A Structured Self-attentive Sentence Embedding](notes/self_attentive_sentence_embedding.md)
 - [MinimalRNN: Towards More Interpretable and Trainable Recurrent Neural Networks](notes/minimalrnn.md)
+- [Attention is all you need](notes/all_attention.md)
 
 ### 2016
 
