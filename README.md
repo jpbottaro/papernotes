@@ -21,6 +21,7 @@ Inspired by [dennybritz' repo](https://github.com/dennybritz/deeplearning-papern
 - [A Structured Self-attentive Sentence Embedding](notes/self_attentive_sentence_embedding.md)
 - [MinimalRNN: Towards More Interpretable and Trainable Recurrent Neural Networks](notes/minimalrnn.md)
 - [Attention is All You Need](notes/all_attention.md)
+- [Deep Sets](notes/deep_sets.md)
 - [Topically Driven Neural Language Model](notes/topical_neural_language_model.md)
 
 ### 2016
