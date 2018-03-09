@@ -14,6 +14,10 @@ Inspired by [dennybritz' repo](https://github.com/dennybritz/deeplearning-papern
 
 ## Papers
 
+### 2018
+
+- [Neural Speed Reading via Skim-RNN](notes/skim_rnn.md)
+
 ### 2017
 
 - [Dynamic Routing Between Capsules](notes/capsule_networks.md)
