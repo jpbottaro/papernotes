@@ -1,4 +1,4 @@
-### [Attention is all you need][1]
+### [Deep Sets][1]
 
 **Authors**: Manzil Zaheer, Satwik Kottur, Siamak Ravanbakhsh, Barnabas Poczos,
 Ruslan Salakhutdinov, Alexander Smola
@@ -35,4 +35,4 @@ relative success.
 * IAPRTC
 * Input Sets
 
-[1]: https://arxiv.org/abs/1706.03762 "Paper"
+[1]: https://arxiv.org/abs/1703.06114 "Paper"
