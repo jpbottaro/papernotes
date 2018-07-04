@@ -34,6 +34,7 @@ Inspired by [dennybritz' repo](https://github.com/dennybritz/deeplearning-papern
 
 ### 2015
 
+- [Adam: A Method for Stochastic Optimization](notes/adam.md)
 - [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](notes/batch_normalization.md)
 
 ### 2010
